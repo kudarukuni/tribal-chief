@@ -19,15 +19,15 @@ export default function Header({ logoLink }: HeaderProps) {
           <ul className={styles.navList}>
             <li>
               <a
-                href="https://drive.google.com/file/d/1PgvpHThs5XjTwGZgib9ZTVLa8QbhulWp/view?usp=sharing"
-                title="Download Alexander's Resume"
+                href="https://drive.google.com/file/d/1pYhRSAeGOJjHJi_a8r0uLwAEsaaW0nTG/view?usp=drive_link"
+                title="Download Kuda's Resume"
               >
                 Resume
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/agrattan0820"
+                href="https://github.com/kudarukuni"
                 title="Go to Alexander's GitHub"
               >
                 <FaGithub />
@@ -36,8 +36,8 @@ export default function Header({ logoLink }: HeaderProps) {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/alexander-grattan/"
-                title="Connect with Alexander on LinkedIn"
+                href="https://www.linkedin.com/in/kudarukuni/"
+                title="Connect with Kuda on LinkedIn"
               >
                 <FaLinkedin />
                 <span className={commonStyles.hiddenText}>LinkedIn</span>
