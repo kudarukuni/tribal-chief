@@ -5,9 +5,9 @@ import { Raleway } from "next/font/google";
 import SmoothScroll from "../components/smooth-scroll";
 
 export const metadata: Metadata = {
-  title: "Alexander Grattan",
+  title: "Kudakwashe Rukuni",
   description:
-    "Alexander's blog and portfolio, following his journeys as a software developer in Pittsburgh, PA",
+    "Kuda's blog and portfolio, following his journeys as a software developer in Harare, Hatfield",
 };
 
 const raleway = Raleway({
