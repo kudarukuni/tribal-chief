@@ -15,12 +15,12 @@ const blogPosts: { title: string; slug: string; date: string }[] = [
   {
     title: "Why I Don't Want to Work Remotely as a Young Person",
     slug: "no-remote-while-young",
-    date: " January 3, 2024",
+    date: " February 20, 2024",
   },
   {
-    title: "Falling Out of Love with Twin Macro",
+    title: "Falling Out of Love with family",
     slug: "falling-out-of-love-with-twin-macro",
-    date: "December 29, 2023",
+    date: "February 20, 2024",
   },
 ];
 
@@ -35,20 +35,20 @@ export default function Homepage() {
             <div className={styles.cta}>
               <h1 id="title" className={styles.title}>
                 I create
-                <span className={commonStyles.playful}> playful </span>{" "}
+                <span className={commonStyles.playful}> animated </span>{" "}
                 experiences.
               </h1>
               <div id="portraitContainer" className={styles.portraitContainer}>
                 <Image
                   src={AlexanderGrattan}
-                  alt="Portrait of Alexander Grattan"
+                  alt="Portrait of Kuda Rukuni"
                   className={styles.portrait}
                   priority
                 />
               </div>
             </div>
             <p id="jobTitle" className={styles.jobTitle}>
-              Alexander Grattan / Software Developer
+              Kuda Rukuni / Software Developer
             </p>
           </section>
           {/* <section
@@ -95,24 +95,24 @@ export default function Homepage() {
           </section>
         </main>
         <footer>
-          <h2>Connect with Me</h2>
+          <h2>Taura Neni Apo</h2>
           <ul id="footerLinks" className={styles.footerLinks}>
             <li>
               <a
-                href="https://drive.google.com/file/d/1PgvpHThs5XjTwGZgib9ZTVLa8QbhulWp/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pYhRSAeGOJjHJi_a8r0uLwAEsaaW0nTG/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Download Alexander's Resume"
+                title="Download Kuda's Resume"
               >
                 Resume
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/agrattan0820"
+                href="https://github.com/kudarukuni"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Go to Alexander's GitHub"
+                title="Go to Kuda's GitHub"
               >
                 <FaGithub />
                 <span className={commonStyles.hiddenText}>GitHub</span>
@@ -120,10 +120,10 @@ export default function Homepage() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/alexander-grattan/"
+                href="https://www.linkedin.com/in/kudarukuni/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Connect with Alexander on LinkedIn"
+                title="Connect with Kuda on LinkedIn"
               >
                 <FaLinkedin />
                 <span className={commonStyles.hiddenText}>LinkedIn</span>
